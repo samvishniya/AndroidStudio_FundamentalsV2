@@ -11,8 +11,11 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/02_2_Activity_Lifecycle_and_State" />
+            <option value="$PROJECT_DIR$/02_2_Activity_Lifecycle_and_State/CodingChallenge_Shopping_List" />
+            <option value="$PROJECT_DIR$/02_2_Activity_Lifecycle_and_State/Homework" />
             <option value="$PROJECT_DIR$/02_2_Activity_Lifecycle_and_State/TwoActivites" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/whereami" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

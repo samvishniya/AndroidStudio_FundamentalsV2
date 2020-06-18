@@ -2,6 +2,7 @@ package com.example.vishniya.twoactivites;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -15,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
     private EditText mMessageEditText;
     // todo fix thisd 'extra' problem
 
-    // I DONT UNDERSTAND THIS EXTRA MESSAGE THING...
     public static final String EXTRA_MESSAGE = "THIS IS MY MESSAGE IM SENDING OK";
     public static final int TEXT_REQUEST = 1;
     private TextView mReplyHeadTextView;
@@ -34,6 +34,43 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
+
+    // this method dictates what's preserved when this activity is destroyed
+    // editText contents are automatically state-saved
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+        // here im checking if the header is currently visible (i.e  there is data that we need to save ), if so I'm adding a boolean "true" to the outState bundle (this bundle is saved when an activity is destroyed)
+        // and then also save the text from the replyText since we know there is some
+        if(mReplyHeadTextView.getVisibility()==View.VISIBLE){
+            outState.putBoolean("reply_visible",true);
+            outState.putString("reply_text", mReplyTextView.getText().toString());
+        }
+
+    }
+
+    // this recalls preserved instance states (u can also just pout it in "onCreate" instead - that's usually better and faster
+    @Override
+    protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        if(savedInstanceState !=null){
+            // here we retreive the boolean from the bundle
+            boolean isVisible = savedInstanceState.getBoolean("reply_visible");
+            if(isVisible) {
+                // restore the header
+                mReplyHeadTextView.setVisibility(View.VISIBLE);
+                // restore the replyTextView
+                String replyText = savedInstanceState.getString("reply_text");
+                mReplyTextView.setText(replyText);
+                mReplyTextView.setVisibility(View.VISIBLE);
+            }
+        }
+    }
+
+
+
     @Override
     protected void onStart() {
         super.onStart();
@@ -45,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
         super.onStop();
         Log.d(LOG_TAG, "onStop");
     }
+
 
     @Override
     protected void onDestroy() {
