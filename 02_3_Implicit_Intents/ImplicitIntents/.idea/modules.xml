@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../01.2 HelloToast.iml" filepath="$PROJECT_DIR$/../../01.2 HelloToast.iml" group="01.2 HelloToast" />
+      <module fileurl="file://$PROJECT_DIR$/../../02_2_Activity_Lifecycle_and_State/02_2_Activity_Lifecycle_and_State.iml" filepath="$PROJECT_DIR$/../../02_2_Activity_Lifecycle_and_State/02_2_Activity_Lifecycle_and_State.iml" group="01.2 HelloToast/02_2_Activity_Lifecycle_and_State" />
+      <module fileurl="file://$PROJECT_DIR$/../02_3_Implicit_Intents.iml" filepath="$PROJECT_DIR$/../02_3_Implicit_Intents.iml" group="01.2 HelloToast/02_3_Implicit_Intents" />
+      <module fileurl="file://$PROJECT_DIR$/../../02_2_Activity_Lifecycle_and_State/CodingChallenge_Shopping_List/CodingChallenge_Shopping_List.iml" filepath="$PROJECT_DIR$/../../02_2_Activity_Lifecycle_and_State/CodingChallenge_Shopping_List/CodingChallenge_Shopping_List.iml" group="01.2 HelloToast/02_2_Activity_Lifecycle_and_State/CodingChallenge_Shopping_List" />
+      <module fileurl="file://$PROJECT_DIR$/../../02_2_Activity_Lifecycle_and_State/Homework/Homework.iml" filepath="$PROJECT_DIR$/../../02_2_Activity_Lifecycle_and_State/Homework/Homework.iml" group="01.2 HelloToast/02_2_Activity_Lifecycle_and_State/Homework" />
+      <module fileurl="file://$PROJECT_DIR$/ImplicitIntents.iml" filepath="$PROJECT_DIR$/ImplicitIntents.iml" group="01.2 HelloToast/02_3_Implicit_Intents/ImplicitIntents" />
+      <module fileurl="file://$PROJECT_DIR$/../../02_2_Activity_Lifecycle_and_State/TwoActivites/TwoActivites.iml" filepath="$PROJECT_DIR$/../../02_2_Activity_Lifecycle_and_State/TwoActivites/TwoActivites.iml" group="01.2 HelloToast/02_2_Activity_Lifecycle_and_State/TwoActivites" />
+      <module fileurl="file://$PROJECT_DIR$/../../app/app.iml" filepath="$PROJECT_DIR$/../../app/app.iml" group="01.2 HelloToast/app" />
+      <module fileurl="file://$PROJECT_DIR$/../implicitintentsreceiver/implicitintentsreceiver.iml" filepath="$PROJECT_DIR$/../implicitintentsreceiver/implicitintentsreceiver.iml" group="01.2 HelloToast/02_3_Implicit_Intents/implicitintentsreceiver" />
+      <module fileurl="file://$PROJECT_DIR$/../../whereami/whereami.iml" filepath="$PROJECT_DIR$/../../whereami/whereami.iml" group="01.2 HelloToast/whereami" />
+    </modules>
+  </component>
+</project>
