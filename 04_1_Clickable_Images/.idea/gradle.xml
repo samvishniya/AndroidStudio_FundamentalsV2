@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/.." />
+            <option value="$PROJECT_DIR$/../012HelloToast" />
+            <option value="$PROJECT_DIR$/../012HelloToast/03_1_Debugger" />
+            <option value="$PROJECT_DIR$/../02_2_Activity_Lifecycle_and_State" />
+            <option value="$PROJECT_DIR$/../02_2_Activity_Lifecycle_and_State/CodingChallenge_Shopping_List" />
+            <option value="$PROJECT_DIR$/../02_2_Activity_Lifecycle_and_State/Homework" />
+            <option value="$PROJECT_DIR$/../02_2_Activity_Lifecycle_and_State/TwoActivites" />
+            <option value="$PROJECT_DIR$/../02_3_Implicit_Intents" />
+            <option value="$PROJECT_DIR$/../02_3_Implicit_Intents/ImplicitIntents" />
+            <option value="$PROJECT_DIR$/../02_3_Implicit_Intents/ImplicitIntentsWithCamera" />
+            <option value="$PROJECT_DIR$/../02_3_Implicit_Intents/codingchallenge_implicitintent_shoppinglist" />
+            <option value="$PROJECT_DIR$/../02_3_Implicit_Intents/implicitintentsreceiver" />
+            <option value="$PROJECT_DIR$/../03_1_Debugger" />
+            <option value="$PROJECT_DIR$/../03_1_Debugger/SimpleCalc" />
+            <option value="$PROJECT_DIR$/../03_2_UnitTests" />
+            <option value="$PROJECT_DIR$/../03_2_UnitTests/simplecalc" />
+            <option value="$PROJECT_DIR$/../03_3_SupportLibraries" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/../app" />
+            <option value="$PROJECT_DIR$/../whereami" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

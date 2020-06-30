@@ -10,8 +10,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/012HelloToast" />
-            <option value="$PROJECT_DIR$/012HelloToast/03_1_Debugger" />
             <option value="$PROJECT_DIR$/02_2_Activity_Lifecycle_and_State" />
             <option value="$PROJECT_DIR$/02_2_Activity_Lifecycle_and_State/CodingChallenge_Shopping_List" />
             <option value="$PROJECT_DIR$/02_2_Activity_Lifecycle_and_State/Homework" />
@@ -27,8 +25,7 @@
             <option value="$PROJECT_DIR$/03_2_UnitTests/simplecalc" />
             <option value="$PROJECT_DIR$/03_3_SupportLibraries" />
             <option value="$PROJECT_DIR$/04_1_Clickable_Images" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/whereami" />
+            <option value="$PROJECT_DIR$/04_2_Input_Controls" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../01.2 HelloToast.iml" filepath="$PROJECT_DIR$/../01.2 HelloToast.iml" group="01.2 HelloToast" />
+      <module fileurl="file://$PROJECT_DIR$/../03_1_Debugger/01.2 HelloToast-03_1_Debugger.iml" filepath="$PROJECT_DIR$/../03_1_Debugger/01.2 HelloToast-03_1_Debugger.iml" group="01.2 HelloToast/03_1_Debugger" />
+      <module fileurl="file://$PROJECT_DIR$/../012HelloToast/012HelloToast.iml" filepath="$PROJECT_DIR$/../012HelloToast/012HelloToast.iml" group="01.2 HelloToast/012HelloToast" />
+      <module fileurl="file://$PROJECT_DIR$/../012HelloToast/03_1_Debugger/012HelloToast-03_1_Debugger.iml" filepath="$PROJECT_DIR$/../012HelloToast/03_1_Debugger/012HelloToast-03_1_Debugger.iml" group="01.2 HelloToast/012HelloToast/03_1_Debugger" />
+      <module fileurl="file://$PROJECT_DIR$/../02_2_Activity_Lifecycle_and_State/02_2_Activity_Lifecycle_and_State.iml" filepath="$PROJECT_DIR$/../02_2_Activity_Lifecycle_and_State/02_2_Activity_Lifecycle_and_State.iml" group="01.2 HelloToast/02_2_Activity_Lifecycle_and_State" />
+      <module fileurl="file://$PROJECT_DIR$/../02_3_Implicit_Intents/02_3_Implicit_Intents.iml" filepath="$PROJECT_DIR$/../02_3_Implicit_Intents/02_3_Implicit_Intents.iml" group="01.2 HelloToast/02_3_Implicit_Intents" />
+      <module fileurl="file://$PROJECT_DIR$/../03_2_UnitTests/03_2_UnitTests.iml" filepath="$PROJECT_DIR$/../03_2_UnitTests/03_2_UnitTests.iml" group="01.2 HelloToast/03_2_UnitTests" />
+      <module fileurl="file://$PROJECT_DIR$/../03_3_SupportLibraries/03_3_SupportLibraries.iml" filepath="$PROJECT_DIR$/../03_3_SupportLibraries/03_3_SupportLibraries.iml" group="01.2 HelloToast/03_3_SupportLibraries" />
+      <module fileurl="file://$PROJECT_DIR$/04_1_Clickable_Images.iml" filepath="$PROJECT_DIR$/04_1_Clickable_Images.iml" group="01.2 HelloToast/04_1_Clickable_Images" />
+      <module fileurl="file://$PROJECT_DIR$/../02_2_Activity_Lifecycle_and_State/CodingChallenge_Shopping_List/CodingChallenge_Shopping_List.iml" filepath="$PROJECT_DIR$/../02_2_Activity_Lifecycle_and_State/CodingChallenge_Shopping_List/CodingChallenge_Shopping_List.iml" group="01.2 HelloToast/02_2_Activity_Lifecycle_and_State/CodingChallenge_Shopping_List" />
+      <module fileurl="file://$PROJECT_DIR$/../02_2_Activity_Lifecycle_and_State/Homework/Homework.iml" filepath="$PROJECT_DIR$/../02_2_Activity_Lifecycle_and_State/Homework/Homework.iml" group="01.2 HelloToast/02_2_Activity_Lifecycle_and_State/Homework" />
+      <module fileurl="file://$PROJECT_DIR$/../02_3_Implicit_Intents/ImplicitIntents/ImplicitIntents.iml" filepath="$PROJECT_DIR$/../02_3_Implicit_Intents/ImplicitIntents/ImplicitIntents.iml" group="01.2 HelloToast/02_3_Implicit_Intents/ImplicitIntents" />
+      <module fileurl="file://$PROJECT_DIR$/../03_1_Debugger/SimpleCalc/SimpleCalc.iml" filepath="$PROJECT_DIR$/../03_1_Debugger/SimpleCalc/SimpleCalc.iml" group="01.2 HelloToast/03_1_Debugger/SimpleCalc" />
+      <module fileurl="file://$PROJECT_DIR$/../02_2_Activity_Lifecycle_and_State/TwoActivites/TwoActivites.iml" filepath="$PROJECT_DIR$/../02_2_Activity_Lifecycle_and_State/TwoActivites/TwoActivites.iml" group="01.2 HelloToast/02_2_Activity_Lifecycle_and_State/TwoActivites" />
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" group="01.2 HelloToast/app" />
+      <module fileurl="file://$PROJECT_DIR$/../02_3_Implicit_Intents/codingchallenge_implicitintent_shoppinglist/codingchallenge_implicitintent_shoppinglist.iml" filepath="$PROJECT_DIR$/../02_3_Implicit_Intents/codingchallenge_implicitintent_shoppinglist/codingchallenge_implicitintent_shoppinglist.iml" group="01.2 HelloToast/02_3_Implicit_Intents/codingchallenge_implicitintent_shoppinglist" />
+      <module fileurl="file://$PROJECT_DIR$/../02_3_Implicit_Intents/implicitintentsreceiver/implicitintentsreceiver.iml" filepath="$PROJECT_DIR$/../02_3_Implicit_Intents/implicitintentsreceiver/implicitintentsreceiver.iml" group="01.2 HelloToast/02_3_Implicit_Intents/implicitintentsreceiver" />
+      <module fileurl="file://$PROJECT_DIR$/../02_3_Implicit_Intents/ImplicitIntentsWithCamera/implicitintentswithcamera.iml" filepath="$PROJECT_DIR$/../02_3_Implicit_Intents/ImplicitIntentsWithCamera/implicitintentswithcamera.iml" group="01.2 HelloToast/02_3_Implicit_Intents/implicitintentswithcamera" />
+      <module fileurl="file://$PROJECT_DIR$/../03_2_UnitTests/simplecalc/simplecalc.iml" filepath="$PROJECT_DIR$/../03_2_UnitTests/simplecalc/simplecalc.iml" group="01.2 HelloToast/03_2_UnitTests/simplecalc" />
+      <module fileurl="file://$PROJECT_DIR$/../whereami/whereami.iml" filepath="$PROJECT_DIR$/../whereami/whereami.iml" group="01.2 HelloToast/whereami" />
+    </modules>
+  </component>
+</project>
