@@ -26,6 +26,8 @@
             <option value="$PROJECT_DIR$/03_3_SupportLibraries" />
             <option value="$PROJECT_DIR$/04_1_Clickable_Images" />
             <option value="$PROJECT_DIR$/04_2_Input_Controls" />
+            <option value="$PROJECT_DIR$/04_2_Input_Controls/KeyboardDialPhone" />
+            <option value="$PROJECT_DIR$/04_2_Input_Controls/checkboxesandetc" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

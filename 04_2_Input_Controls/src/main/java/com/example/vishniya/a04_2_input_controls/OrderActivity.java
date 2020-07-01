@@ -16,13 +16,12 @@ public class OrderActivity extends AppCompatActivity implements AdapterView.OnIt
 
     private String orderMessage;
     private TextView orderHeaderTextView;
-    private Spinner labelSpinner;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_order);
-
 
 
         Intent intent = getIntent();
@@ -33,16 +32,17 @@ public class OrderActivity extends AppCompatActivity implements AdapterView.OnIt
 
         orderHeaderTextView.setText(orderMessage);
 
-        labelSpinner = findViewById(R.id.label_spinner);
+        Spinner labelSpinner = findViewById(R.id.label_spinner);
         if (labelSpinner!= null ){
             labelSpinner.setOnItemSelectedListener(this);
         }
-     //   String[] mtestArray = getResources().getStringArray(R)
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R., android.R.layout.simple_spinner_item);
+      ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.labels_array , android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 if(labelSpinner != null){
     labelSpinner.setAdapter(adapter);
 }
+
+
     }
 
 
@@ -88,9 +88,12 @@ if(labelSpinner != null){
     }
 
 
+    // these are for the spinner, coding if item is selected#
+    // we retrieve the users selected item using getitematposition, then assign it to spinnerlabel (also displaying atoast)
     @Override
-    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-
+    public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+String spinnerLabel=adapterView.getItemAtPosition(position).toString();
+displayToast(spinnerLabel);
     }
 
     @Override
