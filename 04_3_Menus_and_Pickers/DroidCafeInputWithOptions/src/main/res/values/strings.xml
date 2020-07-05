@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Droid Cafe</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="droid_desserts_header">Droid Desserts</string>
+    <string name="red_ice_cream_description">Ice cream is dyed with red food dye and sprinkled with white candy</string>
+    <string name="red_ice_cream_order_message">Your red ice cream order is on its way</string>
+    <string name="same_day_messenger_service">Same day messenger service</string>
+    <string name="next_day_ground_delivery">Next day ground delivery</string>
+    <string name="pick_up">Pick up</string>
+    <string name="action_contact">Contact</string>
+    <string name="action_order">Order</string>
+    <string name="action_status">Status</string>
+    <string name="action_favorites">Favorites</string>
+    <string-array name="labels_array">
+
+        <item> Home </item>
+        <item> Other </item>
+        <item> Work </item>
+        <item> Mobile </item>
+    </string-array>
+
+    <string name="action_order_message">You selected Order.</string>
+    <string name="action_status_message">You selected Status.</string>
+    <string name="action_favorites_message">You selected Favorites.</string>
+    <string name="action_contact_message">You selected Contact.</string>
+    <string name="pick_a_date_for_delivery">Pick a date for delivery</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="toastDeliveryMessage">\"Delivery Date: \"</string>
+
+
+</resources>
