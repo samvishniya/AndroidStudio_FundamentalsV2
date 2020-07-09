@@ -36,10 +36,18 @@
             <option value="$PROJECT_DIR$/04_3_Menus_and_Pickers/pickerfortime" />
             <option value="$PROJECT_DIR$/04_4_User_Navigation" />
             <option value="$PROJECT_DIR$/04_4_User_Navigation/DroidCafeOptionsUp" />
-            <option value="$PROJECT_DIR$/04_4_User_Navigation/navdrawerexperiment" />
+            <option value="$PROJECT_DIR$/04_4_User_Navigation/NavigationHomework" />
+            <option value="$PROJECT_DIR$/04_4_User_Navigation/navdrawerexperiment3" />
             <option value="$PROJECT_DIR$/04_4_User_Navigation/tabexperiment" />
+            <option value="$PROJECT_DIR$/04_5_RecyclerView" />
+            <option value="$PROJECT_DIR$/04_5_RecyclerView/RecyclerView" />
+            <option value="$PROJECT_DIR$/04_5_RecyclerView/RecyclerViewOptimisedOnClick" />
+            <option value="$PROJECT_DIR$/04_5_RecyclerView/reciperecyclerview" />
+            <option value="$PROJECT_DIR$/05_1_Drawables_Styles_Themes" />
+            <option value="$PROJECT_DIR$/05_1_Drawables_Styles_Themes/levellistbattery" />
+            <option value="$PROJECT_DIR$/05_1_Drawables_Styles_Themes/scorekeeper" />
             <option value="$PROJECT_DIR$/Menus_and_Pickers" />
-            <option value="$PROJECT_DIR$/contextMenuScrollingText" />
+            <option value="$PROJECT_DIR$/levellistbattery" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

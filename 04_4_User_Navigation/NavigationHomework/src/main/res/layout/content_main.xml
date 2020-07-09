@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/gridsquare0big"
+            android:onClick="onClickImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/gridsquare6"
+            android:onClick="onClickImage"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            app:layout_column="0"
+            app:layout_row="2"
+
+            app:srcCompat="@drawable/gridsquareminebig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </androidx.gridlayout.widget.GridLayout>
+
+
+</RelativeLayout>

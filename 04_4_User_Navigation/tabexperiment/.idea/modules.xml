@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../../01.2 HelloToast.iml" filepath="$PROJECT_DIR$/../../01.2 HelloToast.iml" group="01.2 HelloToast" />
+      <module fileurl="file://$PROJECT_DIR$/../../Menus_and_Pickers/012HelloToast-Menus_and_Pickers.iml" filepath="$PROJECT_DIR$/../../Menus_and_Pickers/012HelloToast-Menus_and_Pickers.iml" group="01.2 HelloToast/Menus_and_Pickers" />
       <module fileurl="file://$PROJECT_DIR$/../../02_2_Activity_Lifecycle_and_State/02_2_Activity_Lifecycle_and_State.iml" filepath="$PROJECT_DIR$/../../02_2_Activity_Lifecycle_and_State/02_2_Activity_Lifecycle_and_State.iml" group="01.2 HelloToast/02_2_Activity_Lifecycle_and_State" />
       <module fileurl="file://$PROJECT_DIR$/../../02_3_Implicit_Intents/02_3_Implicit_Intents.iml" filepath="$PROJECT_DIR$/../../02_3_Implicit_Intents/02_3_Implicit_Intents.iml" group="01.2 HelloToast/02_3_Implicit_Intents" />
       <module fileurl="file://$PROJECT_DIR$/../../03_1_Debugger/03_1_Debugger.iml" filepath="$PROJECT_DIR$/../../03_1_Debugger/03_1_Debugger.iml" group="01.2 HelloToast/03_1_Debugger" />
