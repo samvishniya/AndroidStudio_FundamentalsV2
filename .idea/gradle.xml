@@ -44,10 +44,9 @@
             <option value="$PROJECT_DIR$/04_5_RecyclerView/RecyclerViewOptimisedOnClick" />
             <option value="$PROJECT_DIR$/04_5_RecyclerView/reciperecyclerview" />
             <option value="$PROJECT_DIR$/05_1_Drawables_Styles_Themes" />
+            <option value="$PROJECT_DIR$/05_1_Drawables_Styles_Themes/MaterialMe" />
             <option value="$PROJECT_DIR$/05_1_Drawables_Styles_Themes/levellistbattery" />
             <option value="$PROJECT_DIR$/05_1_Drawables_Styles_Themes/scorekeeper" />
-            <option value="$PROJECT_DIR$/Menus_and_Pickers" />
-            <option value="$PROJECT_DIR$/levellistbattery" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
