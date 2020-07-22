@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../.." />
+            <option value="$PROJECT_DIR$/../../02_2_Activity_Lifecycle_and_State" />
+            <option value="$PROJECT_DIR$/../../02_2_Activity_Lifecycle_and_State/CodingChallenge_Shopping_List" />
+            <option value="$PROJECT_DIR$/../../02_2_Activity_Lifecycle_and_State/Homework" />
+            <option value="$PROJECT_DIR$/../../02_2_Activity_Lifecycle_and_State/TwoActivites" />
+            <option value="$PROJECT_DIR$/../../02_3_Implicit_Intents" />
+            <option value="$PROJECT_DIR$/../../02_3_Implicit_Intents/ImplicitIntents" />
+            <option value="$PROJECT_DIR$/../../02_3_Implicit_Intents/ImplicitIntentsWithCamera" />
+            <option value="$PROJECT_DIR$/../../02_3_Implicit_Intents/codingchallenge_implicitintent_shoppinglist" />
+            <option value="$PROJECT_DIR$/../../02_3_Implicit_Intents/implicitintentsreceiver" />
+            <option value="$PROJECT_DIR$/../../03_1_Debugger" />
+            <option value="$PROJECT_DIR$/../../03_1_Debugger/SimpleCalc" />
+            <option value="$PROJECT_DIR$/../../03_2_UnitTests" />
+            <option value="$PROJECT_DIR$/../../03_2_UnitTests/simplecalc" />
+            <option value="$PROJECT_DIR$/../../03_3_SupportLibraries" />
+            <option value="$PROJECT_DIR$/../../04_1_Clickable_Images" />
+            <option value="$PROJECT_DIR$/../../04_2_Input_Controls" />
+            <option value="$PROJECT_DIR$/../../04_2_Input_Controls/KeyboardDialPhone" />
+            <option value="$PROJECT_DIR$/../../04_2_Input_Controls/checkboxesandetc" />
+            <option value="$PROJECT_DIR$/../../04_3_Menus_and_Pickers" />
+            <option value="$PROJECT_DIR$/../../04_3_Menus_and_Pickers/ContextMenu_ScrollingText" />
+            <option value="$PROJECT_DIR$/../../04_3_Menus_and_Pickers/DialogForAlert" />
+            <option value="$PROJECT_DIR$/../../04_3_Menus_and_Pickers/DroidCafeInputWithOptions" />
+            <option value="$PROJECT_DIR$/../../04_3_Menus_and_Pickers/PickerForDate" />
+            <option value="$PROJECT_DIR$/../../04_3_Menus_and_Pickers/pickerfortime" />
+            <option value="$PROJECT_DIR$/../../04_4_User_Navigation" />
+            <option value="$PROJECT_DIR$/../../04_4_User_Navigation/DroidCafeOptionsUp" />
+            <option value="$PROJECT_DIR$/../../04_4_User_Navigation/NavigationHomework" />
+            <option value="$PROJECT_DIR$/../../04_4_User_Navigation/navdrawerexperiment3" />
+            <option value="$PROJECT_DIR$/../../04_4_User_Navigation/tabexperiment" />
+            <option value="$PROJECT_DIR$/../../04_5_RecyclerView" />
+            <option value="$PROJECT_DIR$/../../04_5_RecyclerView/RecyclerView" />
+            <option value="$PROJECT_DIR$/../../04_5_RecyclerView/RecyclerViewOptimisedOnClick" />
+            <option value="$PROJECT_DIR$/../../04_5_RecyclerView/reciperecyclerview" />
+            <option value="$PROJECT_DIR$/.." />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/transitionsandanimations" />
+            <option value="$PROJECT_DIR$/../levellistbattery" />
+            <option value="$PROJECT_DIR$/../scorekeeper" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

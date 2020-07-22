@@ -45,8 +45,30 @@
             <option value="$PROJECT_DIR$/04_5_RecyclerView/reciperecyclerview" />
             <option value="$PROJECT_DIR$/05_1_Drawables_Styles_Themes" />
             <option value="$PROJECT_DIR$/05_1_Drawables_Styles_Themes/MaterialMe" />
+            <option value="$PROJECT_DIR$/05_1_Drawables_Styles_Themes/MaterialMe/transitionsandanimations" />
             <option value="$PROJECT_DIR$/05_1_Drawables_Styles_Themes/levellistbattery" />
             <option value="$PROJECT_DIR$/05_1_Drawables_Styles_Themes/scorekeeper" />
+            <option value="$PROJECT_DIR$/05_3_Adaptive_Layouts" />
+            <option value="$PROJECT_DIR$/05_3_Adaptive_Layouts/MaterialMeRevised" />
+            <option value="$PROJECT_DIR$/05_3_Adaptive_Layouts/RecyclerViewLayoutHW" />
+            <option value="$PROJECT_DIR$/06_1_Espresso" />
+            <option value="$PROJECT_DIR$/06_1_Espresso/06_1_Espresso-TwoActivitiesEspresso" />
+            <option value="$PROJECT_DIR$/06_1_Espresso/PhoneNumberSpinnerEspresso" />
+            <option value="$PROJECT_DIR$/07_03_Broadcast_Receivers" />
+            <option value="$PROJECT_DIR$/07_03_Broadcast_Receivers/MusicPlayerReceiver" />
+            <option value="$PROJECT_DIR$/07_03_Broadcast_Receivers/powerreceiver" />
+            <option value="$PROJECT_DIR$/07_1_AsyncTask" />
+            <option value="$PROJECT_DIR$/07_1_AsyncTask/AsyncTask" />
+            <option value="$PROJECT_DIR$/07_1_AsyncTask/whowroteit" />
+            <option value="$PROJECT_DIR$/07_2_AsyncTask_and_AsyncLoader" />
+            <option value="$PROJECT_DIR$/07_2_AsyncTask_and_AsyncLoader/getwebpagehw" />
+            <option value="$PROJECT_DIR$/08_02_Alarm_Manager" />
+            <option value="$PROJECT_DIR$/08_02_Alarm_Manager/RemembranceMomentAlarm" />
+            <option value="$PROJECT_DIR$/08_1_Notifications" />
+            <option value="$PROJECT_DIR$/08_1_Notifications/notifyme" />
+            <option value="$PROJECT_DIR$/08_2_Alarm_Manager" />
+            <option value="$PROJECT_DIR$/08_2_Alarm_Manager/remembrancealarm" />
+            <option value="$PROJECT_DIR$/08_2_Alarm_Manager/standup" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

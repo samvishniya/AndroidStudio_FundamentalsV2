@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.transition.TransitionInflater;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -16,9 +17,13 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
+     //   getWindow().setExitTransition(findViewById(R.id.));
+
         TextView title = findViewById(R.id.titledetail);
         TextView infoDetail = findViewById(R.id.infodetail);
         ImageView banner = findViewById(R.id.imageView_bannerdetail);
+        getWindow().setSharedElementEnterTransition(TransitionInflater.from(this).inflateTransition(R.transition.change_image_transform));
+
 
         Intent intent = getIntent();
         String titleString = intent.getStringExtra("TITLE");
