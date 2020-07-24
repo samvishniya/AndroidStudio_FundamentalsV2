@@ -1,3 +1,4 @@
+include ':08_3_JobScheduler:NotificationScheduler'
 include ':08_2_Alarm_Manager:remembrancealarm'
 include ':08_02_Alarm_Manager:RemembranceMomentAlarm'
 include ':08_2_Alarm_Manager:standup'

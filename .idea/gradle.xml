@@ -69,6 +69,8 @@
             <option value="$PROJECT_DIR$/08_2_Alarm_Manager" />
             <option value="$PROJECT_DIR$/08_2_Alarm_Manager/remembrancealarm" />
             <option value="$PROJECT_DIR$/08_2_Alarm_Manager/standup" />
+            <option value="$PROJECT_DIR$/08_3_JobScheduler" />
+            <option value="$PROJECT_DIR$/08_3_JobScheduler/NotificationScheduler" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
