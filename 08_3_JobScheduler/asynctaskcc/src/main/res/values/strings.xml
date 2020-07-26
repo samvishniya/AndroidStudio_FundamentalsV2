@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AsyncTaskCC</string>
+    <string name="label_not_set">Not Set</string>
+
+</resources>

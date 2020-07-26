@@ -62,8 +62,6 @@
             <option value="$PROJECT_DIR$/07_1_AsyncTask/whowroteit" />
             <option value="$PROJECT_DIR$/07_2_AsyncTask_and_AsyncLoader" />
             <option value="$PROJECT_DIR$/07_2_AsyncTask_and_AsyncLoader/getwebpagehw" />
-            <option value="$PROJECT_DIR$/08_02_Alarm_Manager" />
-            <option value="$PROJECT_DIR$/08_02_Alarm_Manager/RemembranceMomentAlarm" />
             <option value="$PROJECT_DIR$/08_1_Notifications" />
             <option value="$PROJECT_DIR$/08_1_Notifications/notifyme" />
             <option value="$PROJECT_DIR$/08_2_Alarm_Manager" />
@@ -71,6 +69,10 @@
             <option value="$PROJECT_DIR$/08_2_Alarm_Manager/standup" />
             <option value="$PROJECT_DIR$/08_3_JobScheduler" />
             <option value="$PROJECT_DIR$/08_3_JobScheduler/NotificationScheduler" />
+            <option value="$PROJECT_DIR$/08_3_JobScheduler/asynctaskcc" />
+            <option value="$PROJECT_DIR$/08_3_JobScheduler/downloadnowhw" />
+            <option value="$PROJECT_DIR$/09_1_Shared_Preferences" />
+            <option value="$PROJECT_DIR$/09_1_Shared_Preferences/HelloSharedPrefs" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
