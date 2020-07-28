@@ -1,3 +1,4 @@
+include ':09_1_Shared_Preferences:ScoreKeeperHW'
 include ':09_1_Shared_Preferences:HelloSharedPrefs'
 include ':08_3_JobScheduler:downloadnowhw'
 include ':08_3_JobScheduler:asynctaskcc'

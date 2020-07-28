@@ -73,6 +73,7 @@
             <option value="$PROJECT_DIR$/08_3_JobScheduler/downloadnowhw" />
             <option value="$PROJECT_DIR$/09_1_Shared_Preferences" />
             <option value="$PROJECT_DIR$/09_1_Shared_Preferences/HelloSharedPrefs" />
+            <option value="$PROJECT_DIR$/09_1_Shared_Preferences/ScoreKeeperHW" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
