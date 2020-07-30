@@ -75,7 +75,10 @@
             <option value="$PROJECT_DIR$/09_1_Shared_Preferences/HelloSharedPrefs" />
             <option value="$PROJECT_DIR$/09_1_Shared_Preferences/ScoreKeeperHW" />
             <option value="$PROJECT_DIR$/09_2_AppSettings" />
+            <option value="$PROJECT_DIR$/09_2_AppSettings/DroidCafeWithSettings" />
             <option value="$PROJECT_DIR$/09_2_AppSettings/myapplication" />
+            <option value="$PROJECT_DIR$/10_1_Room_LiveData_ViewModel" />
+            <option value="$PROJECT_DIR$/10_1_Room_LiveData_ViewModel/roomswordsample" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
