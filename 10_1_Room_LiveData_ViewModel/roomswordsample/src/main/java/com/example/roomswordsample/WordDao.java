@@ -11,6 +11,7 @@ Must be abstract class or interface
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
 import androidx.room.Insert;
+import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 
 import java.util.List;
@@ -19,7 +20,11 @@ import java.util.List;
 
     // you dont need to write sql queries urself, common ones have unique annotations
     // @insert does the work for you for inserting a word
-  @Insert
+  // onconflict tells the app what to do if you insert a word that already exists in the list
+  // the reason this needs to be dealt with is because
+  // in this db Word is also the primary key - which MUST be unique
+  // ignore means a duplicate wont be added, just ignored, could do replace instead!
+  @Insert(onConflict = OnConflictStrategy.REPLACE)
   void insert(Word word);
 
   // theres no convenience annotation to delete multiple entries, so put the generic @query
