@@ -78,7 +78,9 @@
             <option value="$PROJECT_DIR$/09_2_AppSettings/DroidCafeWithSettings" />
             <option value="$PROJECT_DIR$/09_2_AppSettings/myapplication" />
             <option value="$PROJECT_DIR$/10_1_Room_LiveData_ViewModel" />
+            <option value="$PROJECT_DIR$/10_1_Room_LiveData_ViewModel/highscoreroomdatabase2" />
             <option value="$PROJECT_DIR$/10_1_Room_LiveData_ViewModel/roomswordsample" />
+            <option value="$PROJECT_DIR$/highscoreroomdatabase" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

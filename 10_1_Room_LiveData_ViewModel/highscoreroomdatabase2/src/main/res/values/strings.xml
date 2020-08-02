@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HighScoreRoomDatabase</string>
+    <string name="placeholder_highscore">placeholder highscore text</string>
+</resources>

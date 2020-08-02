@@ -1,0 +1,30 @@
+package com.example.highscoreroomdatabase2;
+
+import androidx.lifecycle.LiveData;
+import androidx.room.Dao;
+import androidx.room.Insert;
+import androidx.room.OnConflictStrategy;
+import androidx.room.Query;
+
+import java.util.List;
+
+@Dao
+public interface HighScoreDAO {
+
+    @Insert (onConflict = OnConflictStrategy.REPLACE)
+    void insert(HighScore highscore);
+
+    // to insert multiple - takes list<HighScore>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    void insert(List<HighScore> highScores);
+
+    // custom query to delete all entries from table
+    @Query("DELETE FROM highscore_table")
+    void deleteAll();
+
+    // todo change to sort bh score
+    // custom query to get all scores and sort them descending
+    @Query("SELECT*from highscore_table ORDER BY nickname DESC")
+    LiveData<List<HighScore>> getAllHighScores();
+}
