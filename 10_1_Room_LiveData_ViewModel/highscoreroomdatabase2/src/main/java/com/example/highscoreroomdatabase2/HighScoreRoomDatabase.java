@@ -10,7 +10,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase;
 
 import java.util.concurrent.Executors;
 
-@Database(entities = HighScore.class, version = 1, exportSchema = false)
+@Database(entities = HighScore.class, version = 2, exportSchema = false)
 public abstract class HighScoreRoomDatabase extends RoomDatabase {
 
     public abstract HighScoreDAO highScoreDAO();

@@ -2,6 +2,7 @@ package com.example.highscoreroomdatabase2;
 
 import android.app.Application;
 import android.content.Context;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
@@ -75,12 +76,25 @@ public class HighScoreRepository {
 
 
     public static RoomDatabase.Callback roomDatabaseCallback = new RoomDatabase.Callback(){
+        @Override
+        public void onOpen(@NonNull SupportSQLiteDatabase db) {
+            super.onOpen(db);
+            Log.d("DATABASE", "Database opening");
+            Executors.newSingleThreadScheduledExecutor().execute(new Runnable() {
+
+                @Override
+                public void run() {
+                    addInitialHighScores(context);
+                }
+            });
+        }
+
         // everytime db is opened we want to load some initial highscore data - this must be done off the ui thread
         @Override
         public void onCreate(@NonNull SupportSQLiteDatabase db) {
             super.onCreate(db);
 
-            String[] nicknames = {"mario", "luigi", "peach"};
+        //    String[] nicknames = {"mario", "luigi", "peach"};
 
             Executors.newSingleThreadScheduledExecutor().execute(new Runnable() {
 
@@ -94,11 +108,15 @@ public class HighScoreRepository {
 
     private static void addInitialHighScores(Context context){
 
+        // first clear database
+        getDatabase(context).highScoreDAO().deleteAll();
+
         List<HighScore> nicknameList= new ArrayList<>();
 
-        nicknameList.add((new HighScore("Luigi")));
-        nicknameList.add((new HighScore("Mario")));
+        nicknameList.add((new HighScore("LUIGI", 100)));
+        nicknameList.add((new HighScore("MARIO", 200)));
 
+        // is this line legit? its calling the same method that itself is being called by...
         getDatabase(context).highScoreDAO().insert(nicknameList);
 
     }

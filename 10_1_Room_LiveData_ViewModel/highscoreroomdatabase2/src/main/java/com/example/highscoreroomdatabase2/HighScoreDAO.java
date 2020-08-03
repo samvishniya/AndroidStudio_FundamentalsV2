@@ -25,6 +25,6 @@ public interface HighScoreDAO {
 
     // todo change to sort bh score
     // custom query to get all scores and sort them descending
-    @Query("SELECT*from highscore_table ORDER BY nickname DESC")
+    @Query("SELECT*from highscore_table ORDER BY score DESC")
     LiveData<List<HighScore>> getAllHighScores();
 }

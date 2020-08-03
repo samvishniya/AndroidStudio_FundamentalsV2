@@ -33,7 +33,8 @@ public class HighScoreListAdapter extends RecyclerView.Adapter<HighScoreListAdap
     public void onBindViewHolder(@NonNull HighScoreViewHolder holder, int position) {
     if(highScores!= null){
         HighScore current = highScores.get(position);
-        holder.highScoreItemView.setText(current.getNickname());
+        // todo format this string properly using
+        holder.highScoreItemView.setText(current.getScore()+ "      " + current.getNickname() );
     }
     else {
         // incase data not ready yet

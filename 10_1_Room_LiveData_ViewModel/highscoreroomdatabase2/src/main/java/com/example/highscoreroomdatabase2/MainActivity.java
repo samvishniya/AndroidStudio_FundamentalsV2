@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText nicknameEntry;
     private HighScoreViewModel highScoreViewModel;
+    // todo this score should be removed and replaced by an intent extra fromthe game's activity
+    private final static int newScore = 999;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         // todo also use a int highscore from system
         String nickname=nicknameEntry.getText().toString();
         if(nicknameEntry!=null){
-            HighScore highScore = new HighScore(nickname);
+            HighScore highScore = new HighScore(nickname, newScore);
             highScoreViewModel.insert(highScore);
             Toast.makeText(this,"Your highscore is saved", Toast.LENGTH_SHORT).show();
 
